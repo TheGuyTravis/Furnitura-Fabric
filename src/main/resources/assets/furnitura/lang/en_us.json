@@ -1,5 +1,18 @@
 {
   "itemgroup.furnitura_group": "Furnitura",
 
-  "block.furnitura.drawer": "Drawer"
+  "block.furnitura.drawer": "Drawer",
+  "block.furnitura.acacia_cabinet": "Acacia Cabinet",
+  "block.furnitura.acacia_chair": "Acacia Chair",
+  "block.furnitura.acacia_log_shelf": "Acacia Log Shelf",
+  "block.furnitura.acacia_shelf": "Acacia Shelf",
+  "block.furnitura.acacia_shelf_extenders": "Acacia Shelf Extenders",
+  "block.furnitura.acacia_table": "Acacia Table",
+  "block.furnitura.blue_pet_bed": "Blue Pet Bed",
+  "block.furnitura.cherry_cabinet": "Cherry Cabinet",
+  "block.furnitura.cherry_chair": "Cherry Chair",
+  "block.furnitura.cherry_log_shelf": "Cherry Log Shelf",
+  "block.furnitura.cherry_shelf": "Cherry Shelf",
+  "block.furnitura.cherry_shelf_extenders": "Cherry Shelf Extenders",
+  "block.furnitura.cherry_table": "Cherry Table"
 }

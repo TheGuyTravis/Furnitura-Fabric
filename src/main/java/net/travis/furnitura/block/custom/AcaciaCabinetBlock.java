@@ -12,11 +12,11 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class DrawerBlock extends Block {
+public class AcaciaCabinetBlock extends Block {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
     private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
 
-    public DrawerBlock(Settings settings) {
+    public AcaciaCabinetBlock(Settings settings) {
         super(settings);
     }
 

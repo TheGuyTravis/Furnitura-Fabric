@@ -14,6 +14,19 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.DRAWER);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_LOG_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_SHELF_EXTENDERS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.ACACIA_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLUE_PET_BED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_CABINET);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_LOG_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_SHELF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_SHELF_EXTENDERS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHERRY_TABLE);
     }
 
     @Override

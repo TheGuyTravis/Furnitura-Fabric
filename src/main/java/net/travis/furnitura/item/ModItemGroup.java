@@ -16,6 +16,19 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModBlocks.DRAWER)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.DRAWER);
+                        entries.add(ModBlocks.ACACIA_CABINET);
+                        entries.add(ModBlocks.ACACIA_CHAIR);
+                        entries.add(ModBlocks.ACACIA_LOG_SHELF);
+                        entries.add(ModBlocks.ACACIA_SHELF);
+                        entries.add(ModBlocks.ACACIA_SHELF_EXTENDERS);
+                        entries.add(ModBlocks.ACACIA_TABLE);
+                        entries.add(ModBlocks.BLUE_PET_BED);
+                        entries.add(ModBlocks.CHERRY_CABINET);
+                        entries.add(ModBlocks.CHERRY_CHAIR);
+                        entries.add(ModBlocks.CHERRY_LOG_SHELF);
+                        entries.add(ModBlocks.CHERRY_SHELF);
+                        entries.add(ModBlocks.CHERRY_SHELF_EXTENDERS);
+                        entries.add(ModBlocks.CHERRY_TABLE);
 
                     }).build());
 
