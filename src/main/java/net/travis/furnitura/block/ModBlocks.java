@@ -56,6 +56,51 @@ public class ModBlocks {
     public static final Block CHERRY_TABLE = registerBlock("cherry_table",
             new CherryTableBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).nonOpaque()));
 
+    public static final Block COUCH_EDGE_RIGHT_RED = registerBlock("couch_edge_right_red",
+            new CouchEdgeRightRedBlock(FabricBlockSettings.copyOf(Blocks.RED_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_BLUE = registerBlock("couch_extenders_blue",
+            new CouchExtendersBlueBlock(FabricBlockSettings.copyOf(Blocks.BLUE_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_BROWN = registerBlock("couch_extenders_brown",
+            new CouchExtendersBrownBlock(FabricBlockSettings.copyOf(Blocks.BROWN_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_CYAN = registerBlock("couch_extenders_cyan",
+            new CouchExtendersCyanBlock(FabricBlockSettings.copyOf(Blocks.CYAN_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_GRAY = registerBlock("couch_extenders_gray",
+            new CouchExtendersGrayBlock(FabricBlockSettings.copyOf(Blocks.GRAY_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_GREEN = registerBlock("couch_extenders_green",
+            new CouchExtendersGreenBlock(FabricBlockSettings.copyOf(Blocks.GREEN_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_LIGHT_BLUE = registerBlock("couch_extenders_light_blue",
+            new CouchExtendersLightBlueBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_LIGHT_GRAY = registerBlock("couch_extenders_light_gray",
+            new CouchExtendersLightGrayBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_LIME = registerBlock("couch_extenders_lime",
+            new CouchExtendersLimeBlock(FabricBlockSettings.copyOf(Blocks.LIME_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_ORANGE = registerBlock("couch_extenders_orange",
+            new CouchExtendersOrangeBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_PINK = registerBlock("couch_extenders_pink",
+            new CouchExtendersPinkBlock(FabricBlockSettings.copyOf(Blocks.PINK_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_PURPLE = registerBlock("couch_extenders_purple",
+            new CouchExtendersPurpleBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_RED = registerBlock("couch_extenders_red",
+            new CouchExtendersRedBlock(FabricBlockSettings.copyOf(Blocks.RED_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_WHITE = registerBlock("couch_extenders_white",
+            new CouchExtendersWhiteBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+
+    public static final Block COUCH_EXTENDERS_YELLOW = registerBlock("couch_extenders_yellow",
+            new CouchExtendersYellowBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_WOOL).nonOpaque()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Furnitura.MOD_ID, name), block);

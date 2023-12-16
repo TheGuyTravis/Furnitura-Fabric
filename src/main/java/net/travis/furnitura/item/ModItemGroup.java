@@ -29,6 +29,21 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CHERRY_SHELF);
                         entries.add(ModBlocks.CHERRY_SHELF_EXTENDERS);
                         entries.add(ModBlocks.CHERRY_TABLE);
+                        entries.add(ModBlocks.COUCH_EDGE_RIGHT_RED);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_BLUE);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_BROWN);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_CYAN);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_GRAY);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_GREEN);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_LIGHT_BLUE);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_LIGHT_GRAY);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_LIME);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_ORANGE);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_PINK);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_PURPLE);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_RED);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_WHITE);
+                        entries.add(ModBlocks.COUCH_EXTENDERS_YELLOW);
 
                     }).build());
 
