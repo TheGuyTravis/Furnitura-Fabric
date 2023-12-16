@@ -44,6 +44,14 @@ public class ModItemGroup {
                         entries.add(ModBlocks.COUCH_EXTENDERS_RED);
                         entries.add(ModBlocks.COUCH_EXTENDERS_WHITE);
                         entries.add(ModBlocks.COUCH_EXTENDERS_YELLOW);
+                        entries.add(ModBlocks.COUCH_EXTENDORS);
+                        entries.add(ModBlocks.COUCH_SINGLE_RED);
+                        entries.add(ModBlocks.CRIMSON_CABINET);
+                        entries.add(ModBlocks.CRIMSON_CHAIR);
+                        entries.add(ModBlocks.CRIMSON_SHELF);
+                        entries.add(ModBlocks.CRIMSON_SHELF_EXTENDERS);
+                        entries.add(ModBlocks.CRIMSON_STEM_SHELF);
+                        entries.add(ModBlocks.CRIMSON_TABLE);
 
                     }).build());
 

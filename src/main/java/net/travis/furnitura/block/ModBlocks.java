@@ -101,6 +101,30 @@ public class ModBlocks {
     public static final Block COUCH_EXTENDERS_YELLOW = registerBlock("couch_extenders_yellow",
             new CouchExtendersYellowBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_WOOL).nonOpaque()));
 
+    public static final Block COUCH_EXTENDORS = registerBlock("couch_extendors",
+            new CouchExtendorsBlock(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL).nonOpaque()));
+
+    public static final Block COUCH_SINGLE_RED = registerBlock("couch_single_red",
+            new CouchSingleRedBlock(FabricBlockSettings.copyOf(Blocks.RED_WOOL).nonOpaque()));
+
+    public static final Block CRIMSON_CABINET = registerBlock("crimson_cabinet",
+            new CrimsonCabinetBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
+    public static final Block CRIMSON_CHAIR = registerBlock("crimson_chair",
+            new CrimsonChairBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
+    public static final Block CRIMSON_SHELF = registerBlock("crimson_shelf",
+            new CrimsonShelfBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
+    public static final Block CRIMSON_SHELF_EXTENDERS = registerBlock("crimson_shelf_extenders",
+            new CrimsonShelfExtendersBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
+    public static final Block CRIMSON_STEM_SHELF = registerBlock("crimson_stem_shelf",
+            new CrimsonStemShelfBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
+    public static final Block CRIMSON_TABLE = registerBlock("crimson_table",
+            new CrimsonTableBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).nonOpaque()));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Furnitura.MOD_ID, name), block);
